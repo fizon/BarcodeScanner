@@ -109,7 +109,7 @@ public final class CameraViewController: UIViewController {
 
   public override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    setupVideoPreviewLayerOrientation()
+    setupVideoPreviewLayerOrientation(for: view)
     animateFocusView()
   }
 
@@ -117,8 +117,8 @@ public final class CameraViewController: UIViewController {
                                           with coordinator: UIViewControllerTransitionCoordinator) {
     super.viewWillTransition(to: size, with: coordinator)
     coordinator.animate(
-      alongsideTransition: { [weak self] _ in
-        self?.setupVideoPreviewLayerOrientation()
+      alongsideTransition: { [weak self] context in
+        self?.setupVideoPreviewLayerOrientation(for: context.containerView)
       },
       completion: ({ [weak self] _ in
         self?.animateFocusView()
@@ -369,7 +369,7 @@ private extension CameraViewController {
     NSLayoutConstraint.activate(regularFocusViewConstraints)
   }
 
-  func setupVideoPreviewLayerOrientation() {
+  func setupVideoPreviewLayerOrientation(for view: UIView) {
     guard let videoPreviewLayer = videoPreviewLayer else {
       return
     }
