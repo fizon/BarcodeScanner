@@ -9,6 +9,8 @@
 
 ## Description
 
+**⚠️This fork fixes an issue with BarcodeScanner not handling orientation changes correctly when presented in a UINavigationController.⚠️**
+
 **BarcodeScanner** is a simple and beautiful wrapper around the camera with
 barcode capturing functionality and a great user experience.
 
