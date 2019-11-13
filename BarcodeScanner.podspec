@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "BarcodeScanner"
   s.summary          = "Simple and beautiful barcode scanner."
-  s.version          = "4.1.5"
+  s.version          = "4.1.6"
   s.homepage         = "https://github.com/hyperoslo/BarcodeScanner"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
