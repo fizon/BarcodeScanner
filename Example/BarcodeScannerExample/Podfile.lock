@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  BarcodeScanner: fce1ad2b3f28286b1ab5091fe0979789618bee27
+  BarcodeScanner: d5489b6487d2757d81543acc133dbcfba0c39684
 
 PODFILE CHECKSUM: c4b1962694020ee138563c7191c4ccdffcfa6c4f
 
