@@ -72,7 +72,7 @@ public final class CameraViewController: UIViewController {
   }
 
   private var frontCameraDevice: AVCaptureDevice? {
-    AVCaptureDevice.default(.builtInWideAngleCamera, for: AVMediaType.video, position: .front)
+    return AVCaptureDevice.default(.builtInWideAngleCamera, for: AVMediaType.video, position: .front)
   }
 
   private var backCameraDevice: AVCaptureDevice? {
