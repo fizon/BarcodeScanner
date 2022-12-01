@@ -367,7 +367,6 @@
 				INFOPLIST_FILE = "$(SRCROOT)/BarcodeScanner/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.BarcodeScanner-iOS";
 				PRODUCT_NAME = BarcodeScanner;
 				SKIP_INSTALL = YES;
@@ -397,9 +396,6 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-=======
-				SWIFT_VERSION = 5.0;
->>>>>>> 70b203e... Swift 5, iOS 10
 			};
 			name = Release;
 		};
