@@ -397,6 +397,9 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+=======
+				SWIFT_VERSION = 5.0;
+>>>>>>> 70b203e... Swift 5, iOS 10
 			};
 			name = Release;
 		};
