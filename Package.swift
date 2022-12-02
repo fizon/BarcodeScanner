@@ -23,7 +23,10 @@ let package = Package(
         .target(
             name: "BarcodeScanner",
 			dependencies: [],
-            path: "Sources"
+            path: "Sources",
+            swiftSettings: [
+                .define("SPM")
+            ]
         ),
     ]
 )

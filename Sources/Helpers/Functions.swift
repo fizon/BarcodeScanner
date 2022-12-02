@@ -1,6 +1,12 @@
 import UIKit
 import AVFoundation
 
+#if !SPM
+extension Bundle {
+    static var module:Bundle { Bundle(identifier: "no.hyper.BarcodeScanner-iOS")! }
+}
+#endif
+
 /**
  Returns image with a given name from the resource bundle.
  - Parameter name: Image name.
