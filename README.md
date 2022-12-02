@@ -10,6 +10,7 @@
 ## Description
 
 **⚠️This fork fixes an issue with BarcodeScanner not handling orientation changes correctly when presented in a UINavigationController.⚠️**
+
 **⚠️This fork fixes an issue with BarcodeScanner by running AVCaptureSession on a background thread.⚠️**
 
 **BarcodeScanner** is a simple and beautiful wrapper around the camera with
